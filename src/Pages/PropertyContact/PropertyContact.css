@@ -1,0 +1,64 @@
+@import url(../../App.css);
+
+.pcp-content {
+    padding: 1em 3em;
+    padding-bottom: 3em;
+}
+
+.pcp-content-bg-container{
+    min-height: 93vh;
+    background: url('https://d2s80gmgq3vhu4.cloudfront.netHomeSlideImages/assets/Images/clientSec5BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.pcp-banner-content-cotnainer{
+    max-width: 869px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 7em;
+}
+
+.pcp-b-heading{
+    color: var(--white);
+}
+
+.mobile-pcp-head{
+    display: none;
+}
+
+
+/* Mobile view */
+@media only screen and (max-width: 992px) {
+    .pcp-b-heading{
+        color: var(--white) !important;
+        font-size: 30px !important;
+    }
+    .pcp-content-bg-container{
+        background: url('https://d2s80gmgq3vhu4.cloudfront.netHomeSlideImages/assets/Images/Rectangle64.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        position: relative;
+    }
+    .mobile-pcp-head{
+        display: unset;
+    }
+    .desktop-pcp-head{
+        display: none;
+    }
+    .pcp-banner-content-cotnainer{
+        padding: 0 3em;
+    }
+    .pcp-content{
+        padding: 1em 2em;
+    }
+  }
+  

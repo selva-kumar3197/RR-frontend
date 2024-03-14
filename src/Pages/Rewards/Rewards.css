@@ -1,0 +1,167 @@
+@import url(../../App.css);
+
+.rap-BG {
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/rewardsBanner.png");
+}
+
+.rap-rewards-cotnainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  padding: 4em 2em;
+}
+
+.rap-reward {
+  width: 400px;
+}
+
+.rap-reward-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.rap-reward-heading {
+  margin-top: 10px;
+}
+/* .loader */
+@keyframes loader {
+  0% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(-135deg);
+  }
+  100% {
+    transform: rotate(-225deg);
+  }
+}
+@keyframes span-1 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-50px, 0);
+    border-color: #221d35;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes span-2 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(50px, 0);
+    border-color: #221d35;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes span-3 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0, -50px);
+    border-color: #221d35;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes span-4 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0, 50px);
+    border-color: #221d35;
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.loader {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  animation: loader 2s infinite ease-in-out;
+}
+.loader span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 4px solid #a891f5;
+}
+.loader span:nth-child(1) {
+  animation: span-1 2s ease-in-out infinite;
+}
+.loader span:nth-child(2) {
+  animation: span-2 2s ease-in-out infinite;
+}
+.loader span:nth-child(3) {
+  animation: span-3 2s ease-in-out infinite;
+}
+.loader span:nth-child(4) {
+  animation: span-4 2s ease-in-out infinite;
+}
+
+.loader-div {
+  margin: auto !important;
+}
+.mobile-banner {
+  display: none;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 992px) {
+  .small-text56 {
+      display: flex;
+      font-family: var(--MetropolisMedium);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 115%;
+      margin: unset;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 1em;
+      color: #403663;
+    }
+  .rap-BG{
+    background-image: url('https://d2s80gmgq3vhu4.cloudfront.netHomeSlideImages/assets/Services_mobile/awards.jpg');
+    height: 77vh;
+  }
+  .reward-container {
+    padding: 3em 2em;
+  }
+  .reward-banner {
+    width: 100%;
+  }
+  .mobile-banner {
+    display: unset !important;
+    position: unset;
+  }
+  .desktop-banner {
+    display: none;
+  }
+  .reward-head {
+    color: #403663;
+    padding-top: 1em;
+    text-align: center;
+    font-size: 40px;
+  }
+  .reward-subhead {
+    color: #403663;
+    padding-top: 1em;
+    text-align: center;
+    font-size: 14px;
+  }
+}

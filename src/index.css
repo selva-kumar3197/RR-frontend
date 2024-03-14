@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family:  "CanelaLight","Canela" ,"MetropolisMedium" !important
+  
+ 
+}
+
+code {
+  font-family:"CanelaLight",
+    "Canela",
+    "MetropolisMedium"
+}
+
+a:hover {
+  color: #a891f5 !important;
+}
+.purple{
+    color: #a891f5 !important;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #403663;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a891f5;
+}
+
+
+@media screen and (max-width: 767px) {
+::-webkit-scrollbar {
+    display: none;
+    
+  }
+
+
+}
+

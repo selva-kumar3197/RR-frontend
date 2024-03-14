@@ -1,0 +1,13 @@
+@import url(../../App.css);
+
+.sp-container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 4em 2em; 
+}
+
+.sp-container .grid-view{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

@@ -1,0 +1,79 @@
+@import url(../App.css);
+
+.pcfp-container {
+  display: flex;
+}
+
+.pcfp-l-cotnainer {
+  width: 50%;
+}
+
+.pcfp-r-cotnainer {
+  width: 50%;
+  padding: 2em;
+  position: relative;
+}
+
+.pcfp-l-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pcfl-back-icon {
+  color: var(--themeDarkBlueTextColor);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.pcfp-r-smll-head {
+  color: var(--theme-voilet);
+  margin-top: 6em;
+}
+
+.pcfp-c-select-container {
+  margin-top: 4em;
+  border: 1px solid #8f8f8f;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.pcfp-c-select {
+  outline: none;
+  border: unset;
+  font-family: var(--MetropolisMedium);
+  color: var(--themeDarkBlueTextColor);
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.listyourimage{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .pcfp-r-smll-head{
+    display: none !important;
+  }
+  .listYourReqBg{
+
+  }
+ 
+   .listyour{
+    margin-top: 40px !important;
+    padding: 1em 2em;
+   }
+  .listyourimage{
+    object-fit: cover;
+    
+    height: 77vh; 
+    width: 100%;
+    border-radius: 50px;
+    padding: 2em;
+  }
+
+}

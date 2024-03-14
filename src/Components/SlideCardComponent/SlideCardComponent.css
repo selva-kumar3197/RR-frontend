@@ -1,0 +1,78 @@
+@import url(../../App.css);
+
+.slide-card-contianer {
+  padding: 20px 20px 20px 30px;
+  border-left: 1px solid var(--theme-voilet);
+  width: 100%;
+  font-family: var(--MetropolisMedium);
+  color: var(--themeDarkBlueTextColor);
+  font-size: 16px;
+}
+
+.slide-card-heading {
+  font-size:  15px !important;
+  font-family: var(--MetropolisMedium);
+  font-weight: 500;
+  margin: unset;
+}
+.slide-card-heading1 {
+text-align: left;
+  font-family: var(--CanelaLight);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  /* identical to box height, or 118% */
+
+  text-transform: capitalize;
+
+  color: #A891F5;
+  margin: unset;
+}
+.slide-card-heading1-next{
+font-family: var(--CanelaLight);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height */
+   text-align: left;
+    letter-spacing: -0.06em;
+  
+    color: #A891F5;
+}
+
+.slide-image {
+  margin-top: 6em;
+  width: 100%;
+  /* max-width: 250px; */
+  border-radius: 5px;
+}
+
+.slide-discription {
+  line-height: 25px;
+  font-size: 20px;
+  margin-top: 10px;
+  min-height: 12em;
+  text-align: left;
+}
+.slide-discription1 {
+width: 278px;
+  height: 162px;
+  line-height: 25px;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: left;
+  
+}
+.slide-discription12 {
+  /* width: 278px; */
+  height: 200px;
+  line-height: 25px;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: left;
+
+}
+.slide-redirection-link {
+  color: var(--themeDarkBlueTextColor);
+}

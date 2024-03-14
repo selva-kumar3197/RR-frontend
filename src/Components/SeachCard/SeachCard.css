@@ -1,0 +1,60 @@
+@import url(../../App.css);
+
+.sc-container {
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    width: 500px;
+}
+
+.sc-card-image {
+    width: 100%;
+}
+
+.sc-card-content-contianer{
+    padding: 2em;
+}
+
+.sc-keys-contianer {
+    display: flex;
+    column-gap: 15px;
+}
+
+.sc-key-contianer {
+    color: var(--blackTextColor);
+    border: 1px solid var(--blackTextColor);
+    font-size: 12px;
+    font-family: var(--MetropolisMedium);
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.sc-add{
+    color: var(--blackTextColor);
+}
+
+.sc-heading{
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-bottom: unset;
+}
+
+.sc-size-para{
+    font-size: var(--largeText);
+    color: var(--blackTextColor);
+    font-family: var(--MetropolisMedium);
+    margin-top: unset;
+}
+
+.sc-enquiry-contianer{
+    font-size: var(--largeText);
+    color: var(--pureBlack);
+    text-decoration: unset;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--blackTextColor);
+}
+
+.sc-enquiry-contianer:hover{
+    color: var(--theme-voilet);
+    border-bottom: 2px solid var(--theme-voilet);
+}

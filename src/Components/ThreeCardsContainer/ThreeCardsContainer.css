@@ -1,0 +1,40 @@
+@import url(../../App.css);
+
+.article-cards-grid-cotnainer-parent {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.article-cards-grid-cotnainer {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.article-cards-grid-cotnainer1 {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.article-cards-heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-cards-read-all {
+  color: var(--themeDarkBlueTextColor);
+  margin: auto 0;
+}
+
+.article-cards-heading {
+  font-size: 28px;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 992px) {
+  .article-cards-heading {
+    font-size: 28px !important;
+  }
+}

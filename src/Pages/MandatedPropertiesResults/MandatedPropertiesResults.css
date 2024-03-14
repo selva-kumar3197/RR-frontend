@@ -1,0 +1,112 @@
+.mandated-page-container {
+    margin: 6% 10% 13% 10%;
+}
+
+.mandated-page-first-text {
+    width: 394px;
+    height: 53px;
+    font-family: var(--CanelaLight);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.mandated-page-second-text {
+    width: 314px;
+    height: 16px;
+    left: 184px;
+    top: 255px;
+    font-family: var(--MetropolisMedium);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.mandated-page-second-right {
+    width: 130px;
+    height: 16px;
+    left: 1106px;
+    top: 255px;
+font-family: var(--MetropolisMedium);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #525252;
+
+}
+
+.second-row {
+    margin-top: 5% !important
+}
+
+.show-all-div {
+    margin-top: 10%;
+}
+
+.show-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+
+    width: 210px;
+    top: 1716px;
+
+    background: #221D35;
+    border-radius: 100px;
+    color: white;
+    margin: auto;
+
+}
+.mandated-banner-page{
+    display: none;
+}
+
+.mobile-sec-text{
+    display: none;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 992px) {
+    .mandated-banner-page{
+        display: unset;
+        padding-top: 1em;
+    }
+    .mandated-head{
+        color: #403663;
+        padding-top: 1em;
+        text-align: center;
+        font-size: 38px;
+    }
+    .mandated-page-first-text{
+        display: none;
+    }
+    /* .row{
+        padding-top: 2em;
+        justify-content: space-between;
+    } */
+    .filter{
+        width: unset !important;
+    }
+    .mobile-sec-text{
+        display: unset;
+    }
+    .desktop-sec-text{
+        display: none;
+    }
+    .mandated-article-footer-box1{
+        padding: 10px 10px !important;
+    }
+    .show-all{
+        padding: 7px 0;
+        width: 140px;
+        font-size: 12px;
+    }
+  }

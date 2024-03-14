@@ -1,0 +1,143 @@
+@import url(../../App.css);
+
+.articles-contianer {
+  padding-bottom: 8em;
+}
+
+.ap-banner-contianer {
+
+  padding: 4em 3em;
+  padding-bottom: unset;
+}
+
+.ap-banner-image {
+      border-radius: 16px;
+  width: 100%;
+  margin-top: 3em;
+  height: 77vh;
+      object-fit: cover;
+}
+.ap-banner-image1 {
+  border-radius: 16px;
+  width: 100%;
+  height: 77vh;
+      object-fit: cover;
+      background: var(--white);
+}
+
+
+.ap-view-toggles-cotnainer {
+  margin-top: 2em;
+  display: flex;
+}
+
+.ap-view-toggle {
+  padding: 20px 50px;
+  cursor: pointer;
+}
+
+.green-border {
+  border-bottom: 8px solid var(--lightGreen);
+}
+
+.ap-sec-2-container {
+  padding: 4em 6em;
+  /* max-width: 1300px; */
+  margin: auto;
+  display: flex;
+  column-gap: 3em;
+}
+
+.ap-l-container {
+  width: 60%;
+}
+
+.ap-r-container {
+  width: 40%;
+}
+
+.ap-view-heading {
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+}
+
+.ap-read-more-icon {
+  font-size: 25px;
+  margin-left: 10px;
+  color: var(--theme-voilet);
+}
+
+.ap-ar-cards-container {
+  padding: 0 2em;
+}
+
+.ap-banner-image-mobile {
+  display: none;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 992px) {
+  .ap-banner-contianer {
+    padding: 2em 2em;
+  }
+  .ap-banner-image {
+    display: none;
+  }
+  .ap-banner-image-mobile {
+  display: unset;
+    padding-top: 2em;
+    width: 100%;
+    height: 77vh;
+    object-fit: cover;
+  }
+  .ap-head {
+    font-size: 30px !important;
+  }
+  .ap-view-toggle {
+    padding: 20px 35px;
+  }
+  .ap-sec-2-container {
+    flex-direction: column;
+    padding: 2em 2em;
+  }
+  .ap-l-container {
+    width: unset;
+  }
+  .ap-r-container {
+    width: unset;
+  }
+  .ap-smalltext {
+    padding-top: 2em;
+  }
+  .ap-view-heading {
+    line-height: 120% !important;
+    font-size: 30px !important;
+  }
+  .ap-desc {
+    padding-top: 1em;
+  }
+}
+
+.ap-view-img-div {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.ap-view-image {
+  width: 100%;
+  min-height: 100%;
+  border-radius: 5% !important;
+}
+
+@media (min-width: 1500px)  and (max-width: 2500px){
+  .ap-view-img-div {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+}

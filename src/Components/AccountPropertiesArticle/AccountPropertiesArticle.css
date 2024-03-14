@@ -1,0 +1,165 @@
+
+/* .second-div {
+    margin-left: 16%;
+} */
+
+
+
+.second-right-side-text-dropdown {
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    left: 1256px;
+    top: 266px;
+
+    background: #525252;
+    transform: rotate(-180deg);
+}
+
+.mandated-article-image {
+    width: 100%;
+    height: 300px;
+    left: 184px;
+    top: 312px;
+    border-radius: 6px;
+}
+
+.account-article-footer {
+    width: 100%;
+    height: 320px;
+    margin-top: -16px;
+    background: #EBEBEB;
+    border-radius: 6px;
+}
+
+.account-article-footer-box1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+
+    height: 28px;
+    border: 1.2px solid #3D3D3D;
+    border-radius: 100px;
+}
+
+.-title {
+  
+    margin-left: 5%;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+
+    color: #3D3D3D;
+
+}
+
+.account-article-footer-title1 {
+    height: 35px;
+    left: 216px;
+    top: 784px;
+
+    margin-left: 5%;
+    font-family: 'Canela';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 110%;
+
+    color: #221D35;
+
+}
+
+.account-article-footer-title2 {
+   
+
+    margin-left: 5%;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+
+
+    color: #3D3D3D;
+
+}
+
+
+
+.account-article-footer-title3 {
+    margin-left: 5%;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+
+    text-transform: uppercase;
+    color: #A891F5;
+
+}
+
+
+.mandated-article-arrow {
+    width: 24px;
+    color: #A891F5;
+}
+
+.account-article-line {
+    width: 125px;
+    height: 0px;
+    left: 217px;
+    top: 907px;
+    border: 1px solid #A891F5;
+    margin-left: 5%;
+    margin-top: 5px;
+
+}
+
+.account-article{
+    padding-top: 3em;
+}
+
+.account-article-links{
+    text-decoration: none;
+}
+
+.account-tag{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+.account-tag-sec-1{
+    width: 50%;
+}
+
+/* Mobile view */
+@media (min-width:0px)and (max-width: 1200px) {
+    .mandated-article-image {
+            width: 100%;
+            height: 210px;
+            left: 184px;
+            top: 312px;
+            border-radius: 6px;
+        }
+    .mandated-article-head{
+        font-size: 26px;
+    }
+    .mandated-article-title2{
+        /* padding-top: 1em; */
+    }
+    .account-article-links{
+        text-decoration: none;
+    }
+    .account-article-footer {
+        background: unset;
+    }
+  }
+  

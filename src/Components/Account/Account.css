@@ -1,0 +1,73 @@
+@import url(../../App.css);
+
+.account-container {
+  display: flex;
+  width: 100%;
+}
+
+.account-1 {
+  width: 30%;
+}
+.account-2 {
+  width: 70%;
+  background: #ebebeb;
+}
+
+.account-name {
+  font-size: 48px;
+  font-family: var(--CanelaLight);
+  line-height: 100%;
+}
+
+.pt-6 {
+  padding: 3em;
+}
+.mobile-account-head {
+  padding: 3em;
+}
+.mobile-logot {
+  display: none;
+}
+.account-button {
+  display: none;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 992px) {
+  .account-container {
+    flex-direction: column;
+  }
+  .account-2 {
+    width: unset;
+    background: unset;
+  }
+  .pt-6 {
+    padding: 1em 2em;
+  }
+
+  .account-1 {
+    width: unset;
+  }
+  .mobile-account-head {
+    padding: 0 1em !important;
+  }
+  .mobile-logot {
+    display: unset;
+  }
+  .account-name {
+    font-size: 35px;
+  }
+  .account-mobile-logot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .text-decoration-account {
+    color: #000000;
+    text-decoration: underline !important;
+  }
+  .account-button {
+    display: unset;
+    padding: 0 2em 8em 2em;
+  }
+}

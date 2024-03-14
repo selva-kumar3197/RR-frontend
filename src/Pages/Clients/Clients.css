@@ -1,0 +1,250 @@
+@import url(../../App.css);
+.img-height {
+  height: 50px;
+  width: 120px;
+  object-fit: cover;
+  /* Adjust the desired height */
+}
+
+.img-height2{
+  width: 150px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.clp-container {
+  overflow: hidden;
+}
+
+.cpl-banner-container {
+  padding: 4em 3em;
+}
+
+.cpl-banner-content {
+  display: flex;
+  background-color: #ededed;
+  border-radius: 20px;
+}
+
+.cpl-banner-left {
+  width: 40%;
+  padding: 4em 3em;
+  position: relative;
+}
+
+.cpl-banner-right {
+  width: 60%;
+}
+
+.cpl-banner-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.cpl-banner-brand-logo {
+  width: 250px;
+}
+
+.cpl-banner-b-dis {
+  /* font-family:var(--MetropolisMediumItalic);
+  font-size: 38px !important;
+  line-height: unset !important;
+ */
+
+  font-family: "Canela";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 120%;
+
+  letter-spacing: -0.02em;
+
+  color: #403663;
+}
+
+.cpl-banner-l-bottom-text {
+  position: absolute;
+  bottom: 2em;
+}
+
+.brands-line-contianer {
+  padding: 2em 2em;
+  display: -webkit-inline-box;
+  column-gap: 30px;
+  color: var(--theme-voilet);
+  font-family: var(--MetropolisMediumItalic);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.clp-sec-4-cotnianer {
+  padding: 3em 2em;
+  max-width: 70%;
+  margin: auto;
+  /* padding-bottom: 7em; */
+}
+
+.clp-sec4-b-container {
+  border-top: 1px solid var(--greyText);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clp-sec4-b-number {
+  color: var(--greyText);
+}
+
+.clp-sec4-b-heding {
+  margin-left: 30px;
+  color: var(--greyText);
+}
+
+.clp-sec4-b-dis {
+  max-width: 300px;
+  color: var(--greyText);
+}
+
+.cpl-sec-5-contianer {
+  /* padding: 9em; */
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/clientSec5BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cpl-sec-5-content {
+  max-width: 1056px;
+  margin: auto;
+}
+
+.cpl-sec-5-heading {
+  color: var(--white);
+}
+
+.cpl-sec-5-name {
+  margin-top: 2em;
+  font-size: 16px;
+  color: var(--white);
+  font-family: var(--MetropolisMedium);
+  line-height: 22.4px;
+}
+
+.cpl-sec-6-container {
+  padding: 4em 0;
+}
+
+.mobile-text {
+  display: none;
+}
+
+.mobile-heading {
+  display: none;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 992px) {
+  .img-height {
+    height: 50px;
+    width: 102px;
+    object-fit: cover;
+    /* Adjust the desired height */
+  }
+  .cpl-banner-content {
+    flex-direction: column-reverse;
+    background-color: unset;
+  }
+  .cpl-banner-right {
+    width: unset;
+  }
+  .cpl-banner-container {
+    padding: 3em 2em;
+  }
+  .cpl-banner-left {
+    width: unset;
+    padding: 4em 0;
+    text-align: center;
+  }
+  .cpl-banner-brand-logo {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 3em;
+  }
+  .cpl-banner-l-bottom-text {
+    position: unset;
+  }
+  .mobile-text {
+    display: unset;
+    color: #525252;
+  }
+  .desktop-text {
+    display: none;
+  }
+  .mobile-readmore {
+    color: #525252;
+    font-size: 14px;
+  }
+  .brands-line-contianer {
+    width: 94%;
+    overflow-x: auto;
+    padding: 4em 20px 4em 40px;
+  }
+  #scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .clp-sec4-b-container {
+    flex-direction: column;
+  }
+  .clp-sec4-b-number {
+    color: #403663;
+  }
+  .clp-sec4-b-heding {
+    color: #403663;
+    font-size: 32px;
+  }
+  .clp-sec4-b-dis {
+    color: #403663;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .cpl-sec-5-contianer {
+    padding: 2em;
+    background-position: 80%;
+  }
+  .cpl-sec-5-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .mobile-heading {
+    display: unset;
+  }
+
+  .cpl-sec-5-name {
+    margin-top: 8em;
+  }
+  .cpl-sec-6-container {
+    padding: 4em 20px;
+  }
+  .cpl-banner-image {
+    border-radius: 6px;
+    height: 300px;
+  }
+}
+
+.marquee-container {
+  position: unset;
+}
+
+@media only screen and (min-width: 1200px) {
+  .case-studies{
+    padding: 0 10em;
+  }
+}

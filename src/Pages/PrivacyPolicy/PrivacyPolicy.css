@@ -1,0 +1,43 @@
+@import url(../../App.css);
+
+.ppp-cotnainer {
+    padding: 6em 1em;
+}
+
+.ppp-content-container {
+    max-width: 611px;
+    margin: auto;
+}
+
+.ppp-green-block{
+    background-color: var(--lightGreen);
+    width: 50px;
+    height: 20px;
+    margin-top: 4em;
+}
+.mv-small-desc{
+    display: none;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 992px) {
+    .ppp-cotnainer {
+        padding: 4em 1em;
+    }
+    .mv-heading{
+        font-size: 40px;
+    }
+    .mv-small{
+        font-size: 14px;
+        padding-top: 3em;
+        /* width: 275px; */
+    }
+    .dv-small-desc{
+        display: none;
+    }
+    .mv-small-desc{
+        display: unset;
+        font-size: 14px;
+    }
+}

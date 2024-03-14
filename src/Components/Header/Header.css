@@ -1,0 +1,315 @@
+@import url(../../App.css);
+
+/*sidepanel styles*/
+.sidepanel {
+  position: fixed;
+  z-index: 99;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: var(--white);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: var(--navbarRePadding);
+}
+
+.right-panel-container {
+  padding: 50px;
+  min-width: 472px;
+  height: 100%;
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/about/sec3BG.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 600px 300px;
+}
+
+.r-p-acc-container {
+  background-color: #245040;
+  padding: 20px;
+  color: var(--white);
+  border-radius: 10px;
+}
+
+.r-p-acc-heading {
+  font-size: 32px;
+  font-family: var(--CanelaLight);
+  line-height: 32px;
+}
+
+.r-p-acc-content {
+  font-size: 16px;
+  font-family: var(--MetropolisMedium);
+  line-height: 20.8px;
+}
+
+.r-p-acc-b-link {
+  margin: unset;
+  cursor: pointer;
+}
+
+.r-p-links-continaer {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.r-p-link {
+  color: var(--themeDarkBG);
+  font-size: 20px;
+  font-family: var(--MetropolisMedium);
+  text-decoration: none;
+}
+
+/* top panel styles*/
+
+.toppanel {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--white);
+  overflow-x: hidden;
+  transition: 0.5s;
+  /* padding-top: var(--navbarRePadding); */
+}
+
+.toppanelSearch {
+  height: 200px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--white);
+  overflow-x: hidden;
+  transition: 0.5s;
+  /* padding-top: var(--navbarRePadding); */
+}
+
+.tp-contianer {
+  display: flex;
+  height: 100%;
+  padding: 3em 10em;
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/about/sec3BG.png");
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: right bottom;
+}
+
+.tp-contianer1 {
+  height: 100%;
+  padding: 3em 10em;
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/about/sec3BG.png");
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: right bottom;
+}
+
+.tp-l-container {
+  width: 30%;
+  padding-right: 2em;
+}
+
+.tp-l-container1 {
+  width: 30%;
+  padding-right: 2em;
+}
+
+.tp-l-container p {
+  line-height: 25.6px;
+}
+
+.tp-l-heading {
+  font-size: 40px;
+}
+
+.tp-r-container {
+  width: 70%;
+  border-left: 1px solid #cccccc;
+  padding-left: 3em;
+  display: flex;
+  column-gap: 10em;
+}
+
+.tp-r-links-contianer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.link-container {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: var(--MetropolisMedium);
+  color: #525252;
+}
+
+/* nav bar styles*/
+.header-contianer {
+  padding: 20px 4.5em;
+  display: flex;
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets//Images/noiseBG.png");
+  background-color: var(--white);
+  background-repeat: repeat;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-links-contianer {
+  display: flex;
+  column-gap: 2em;
+  margin: auto 0;
+}
+
+.header-logo-image {
+  width: 100%;
+  max-width: 35px;
+}
+
+.header-link {
+  color: var(--pureBlack);
+  font-family: var(--MetropolisMedium);
+  text-decoration: none;
+  font-size: 19px;
+  margin: unset;
+  cursor: pointer;
+}
+
+.ham-icon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.mv-header-contianer {
+  display: none;
+}
+
+.mv-topnav {
+  display: none;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 992px) {
+
+  /* .header-contianer{
+    display: none;
+  } */
+  .mv-header-contianer {
+    padding: 20px 24px;
+    display: flex;
+    background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/noiseBG.png");
+    background-color: var(--white);
+    background-repeat: repeat;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    align-items: center;
+  }
+
+  .mv-header-links-contianer {
+    display: flex;
+    column-gap: 2em;
+    margin: auto 0;
+  }
+
+  .links-item {
+    display: none;
+  }
+
+  .mv-header-link {
+    color: var(--pureBlack);
+    font-family: var(--MetropolisMedium);
+    text-decoration: none;
+    font-size: 16px;
+    margin: unset;
+    cursor: pointer;
+  }
+
+  .mv-ham-icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }
+
+  .mv-header-contianer {
+    padding: 20px 20px;
+    display: flex;
+    background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/noiseBG.png");
+    background-color: var(--white);
+    background-repeat: repeat;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .mv-topnav {
+    display: unset;
+  }
+
+  .MuiAccordion-root {
+    padding: 0 0 0 155px;
+  }
+
+  .tp-l-heading {
+    font-size: 18px;
+    color: #221d35;
+  }
+
+  .MuiAccordionDetails-root {
+    flex-direction: column;
+  }
+
+  .MuiAccordion-root.Mui-expanded {
+    margin: 0 0 !important;
+  }
+
+  .mv-small-text {
+    font-size: 12px;
+  }
+
+  .tp-r-container {
+    flex-direction: column;
+    padding-left: unset;
+    border-left: unset;
+    padding-top: 2em;
+  }
+
+  .link-container {
+    font-size: 12px;
+  }
+
+  .tp-r-links-contianer:last-child {
+    padding-top: 1em;
+  }
+
+  .tp-contianer {
+    flex-direction: column;
+    padding: unset;
+  }
+
+  .tp-l-container {
+    width: unset;
+  }
+
+  .r-p-acc-heading {
+    font-size: 26px;
+  }
+
+  .r-p-acc-content {
+    font-size: 12px;
+  }
+
+  .r-p-link {
+    font-size: 14px;
+  }
+}

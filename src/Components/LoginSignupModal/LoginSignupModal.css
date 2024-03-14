@@ -1,0 +1,176 @@
+@import url(../../App.css);
+
+.modal-body {
+  padding: unset !important;
+}
+.modal-cont .modal-body {
+  width: 336px;
+}
+
+.modal-content {
+  border-radius: 15px !important;
+}
+
+.modal-width-manager {
+  max-width: 975px !important;
+  width: 90% !important;
+}
+
+.ls-modal-container {
+  display: flex;
+}
+
+
+.ls-m-l-c {
+  width: 100%;
+}
+.ls-m-l-c1 {
+  width: 50%;
+}
+
+.ls-m-r-c {
+  width: 50%;
+  position: relative;
+}
+
+.ls-image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.ls-heading {
+  font-size: 40px;
+}
+
+.large-heading-subtext {
+  font-size: 14px;
+  margin-top: 1em;
+}
+
+.ls-close-container {
+  background-color: black;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  cursor: pointer;
+}
+
+.social-ls-contianer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  margin-top: 2em;
+}
+
+.s-ls-element-contianer {
+  display: flex;
+  border: 1px solid #8f8f8f;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.social-icon-ls {
+  width: 16px;
+  height: 16px;
+  margin: auto 0;
+}
+
+.social-heading-ls {
+  margin: auto;
+}
+
+.ls-or-devider-contianer {
+  margin-top: 0.5em;
+  width: 100%;
+  display: flex;
+  column-gap: 15px;
+}
+
+.ls-or-devider-border {
+  width: 100%;
+  height: 1px;
+  background-color: #a3a3a3;
+  margin: auto;
+}
+
+.ls-or-devider-or {
+  color: #a3a3a3;
+  font-size: 12px;
+  font-family: var(--MetropolisMedium);
+  margin: unset;
+}
+
+.ls-email-f-email {
+  color: #666666;
+  font-size: 14px;
+  margin-top: 1em;
+}
+
+.ls-email-f-in {
+  border-color: #8f8f8f !important;
+}
+
+.ls-email-s-butn {
+  color: var(--white);
+  background-color: var(--themeDarkBG);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 1em;
+}
+
+.ls-bottom-altr-text {
+  margin: unset;
+  margin-top: 0 0.8em;
+}
+
+.optional-tex-bottom {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mobile-email{
+  display: none;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 992px) {
+  .login-mobile{
+    display: unset !important;
+  }
+  .ls-modal-container{
+    flex-direction: column !important;
+  }
+  .modal-dialog{
+    margin: 2em auto !important;
+  }
+  .ls-bottom-altr-text{
+    margin: 4em 2em !important;
+  }
+  .mobile-register{
+    display: none !important;
+  }
+  .mobile-email{
+    display: unset;
+  }
+  .ls-m-r-c-mobile{
+    padding-top: 2em !important;
+  }
+}
+
+
+@media only screen and (max-width: 1200px){
+  .modal-body{
+    max-width: 365px;
+  }
+}

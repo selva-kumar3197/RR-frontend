@@ -1,0 +1,156 @@
+.mainbanner {
+  width: 100%;
+  height: 100vh;
+}
+
+.slide-main-video {
+  width: 100%;
+
+  object-fit: contain;
+}
+
+.mainvideocontent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  color: white;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.outter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-container {
+  height: 890px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+/* max-width: 1180px; */
+
+.mainvideo {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.video-container:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(black, 0.2);
+  z-index: 1;
+}
+
+
+
+.desc {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.callout {
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  height: 100%;
+  /* text-align: center; */
+  position: relative;
+  z-index: 10;
+  width: 70%;
+  /* margin: auto; */
+}
+
+.button {
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 40px;
+  padding: 4px;
+  border: 1px solid rgba(184, 70, 71, 1);
+  margin-top: 20px;
+  .inner {
+    background-color: rgba(184, 70, 71, 1);
+    padding: 15px 30px;
+    border-radius: 40px;
+  }
+}
+
+.support {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-align: right;
+  position: relative;
+  z-index: 10;
+   a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    &:before {
+      display: block;
+      position: absolute;
+      content: "";
+      bottom: -2px;
+      width: 0;
+      height: 1px;
+      background-color: rgba(white, 0.3);
+      transition: 0.3s;
+    }
+    &:hover:before {
+      width: 100%;
+    }
+  }
+}
+
+.option2 {
+  margin-top: 50px;
+  .callout {
+    text-align: left;
+    align-self: flex-start;
+    h1 {
+      text-align: left;
+      width: 100%;
+    }
+    .button {
+      margin-right: auto;
+    }
+    .desc {
+      max-width: 500px;
+      text-align: left;
+      align-self: flex-start;
+    }
+  }
+}

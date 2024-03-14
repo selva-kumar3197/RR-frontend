@@ -1,0 +1,8 @@
+.mainpagebackgroundimg {
+    background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/Main_banner_final.gif");
+    width: 100%;
+    height: 59em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+}

@@ -1,0 +1,49 @@
+@import url(../../App.css);
+
+.button-componet-container {
+  font-size: 16px;
+  padding: 10px 36px;
+  border-radius: 25px;
+  outline: unset;
+  cursor: pointer;
+  font-family: var(--MetropolisMedium);
+  height: 48px;
+}
+
+.white-button {
+  border: unset;
+  background-color: var(--white);
+}
+
+.transperent-white-border {
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+}
+.find-button{
+  width: 100%;
+  padding-top: 5em;
+}
+
+.dark-bg-white-color {
+  background-color: var(--themeDarkBG);
+  color: var(--white);
+}
+
+/* Mobile view */
+@media only screen and (max-width: 992px) {
+  .home-button{
+    background-color: #403663;
+    color: #FFFFFF;
+    
+  }
+  .art-home-button{
+    padding: 14px 65px !important;
+  }
+  .account-load-button{
+    background-color: #FFFFFF;
+    color: black;
+    width: 100%;
+  }
+
+}

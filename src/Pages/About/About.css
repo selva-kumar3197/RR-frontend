@@ -1,0 +1,307 @@
+@import url(../../App.css);
+
+.ab-banner-container {
+  padding: 4em 3em;
+}
+
+.ab-banner-image-bg {
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/about/banner.png");
+  background-position: center;
+  object-fit: cover;
+  height: 77vh;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ab-banner-heading-contianer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.ab-banner-heading {
+  font-family: var(--CanelaLight);
+
+  color: var(--white);
+  font-size: 40px;
+  letter-spacing: -0.02em;
+
+  font-weight: 300;
+  margin-bottom: unset;
+}
+
+.ab-banner-subheading {
+  color: var(--white);
+}
+
+.ab-page-sec-2-contianer .grid-view {
+  display: flex;
+  max-width: 1300px;
+  /* margin: auto; */
+  column-gap: 40px;
+}
+
+.ab-page-sec-3-contianer {
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/about/sec3BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10em 10em;
+  margin-bottom: 4em;
+}
+.ab-page-sec-3-contianer1 {
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/about/sec3BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10em 10em;
+  margin-bottom: 4em;
+}
+
+.ab-3-heading {
+  /* max-width: 1100px; */
+  margin: auto;
+  text-align: center;
+}
+.ab-3-subheading {
+  color: var(--theme-voilet) !important;
+  text-align: center;
+  margin-top: 4em;
+}
+
+.sb-sec-4-left-content {
+  line-height: 33.6px;
+}
+
+.ab-pro-team-image {
+  width: 100%;
+  margin-top: 2em;
+  border-radius: 16px;
+  height: 77vh;
+  object-fit: cover;
+
+}
+.mobile-head {
+  display: none;
+}
+.mobile-text-cont {
+  display: none;
+}
+.mobile-about {
+  display: none;
+}
+.ab-sec-head-mobile {
+  display: none;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 1200px) {
+  .ab-banner-container {
+    padding: 3em 2em;
+  }
+  .mobile-head {
+    display: unset;
+  }
+  .desktop-head {
+    display: none;
+  }
+  .ab-banner-heading-contianer {
+    position: unset;
+    padding-bottom: 0;
+  }
+  .ab-head {
+    font-size: 40px;
+    color: #403663;
+  }
+  .ab-subhead {
+    font-size: 14px;
+    color: #403663;
+    padding-top: 1em;
+  }
+  .ab-banner-image-bg {
+    background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Services_mobile/about-main-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 60vh;
+    border-radius: 16px;
+  }
+  .section-view-container {
+    padding: 3em 1em;
+  }
+  .ab-page-sec-2-contianer .grid-view {
+    flex-direction: column;
+  }
+  .mobile-text-cont {
+    display: unset;
+    font-size: 14px;
+  }
+  .desktop-text {
+    display: none;
+  }
+  .ac-image-contianer {
+    /* padding-bottom: 2em; */
+  }
+  .ac-heading-number {
+    /* padding-top: 4em; */
+  }
+  .ac-image-contianer {
+    border-radius: 6px;
+  }
+  /* .h-sec-3-contianer {
+    flex-direction: column;
+    background-color: unset;
+  } */
+  .ab-mobile {
+    padding: 4em 2em !important;
+  }
+  .h-sec-3-left-contianer {
+    width: unset;
+  }
+  .h-sec-3-right-contianer {
+    width: unset;
+  }
+  .mobile-about {
+    display: unset;
+  }
+  .desktop-about {
+    display: none;
+  }
+  .ab-head-sec {
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 10em;
+    margin-left: unset;
+  }
+  .sb-sec-4-left-content {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .ab-desc {
+    position: unset;
+  }
+  .h-sec-3-image {
+    /* position: absolute; */
+  }
+  .mobile-ab-container {
+    padding: 4em 2em;
+  }
+  .ab-sec-head-mobile {
+    display: unset;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .ab-sec-head-desktop {
+    display: none;
+  }
+}
+
+.aboutUs-text {
+  top: 962px;
+  font-family: var(--MetropolisMedium);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.ibartext {
+  top: 962px;
+font-family: var(--MetropolisMedium);
+  font-style: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.OurValues {
+  font-family: var(--CanelaLight);
+    
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #221d35;
+}
+
+.ibarhtext {
+  font-family: var(--CanelaLight);
+  font-style: normal;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #a891f5;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.dropdownHeading {
+  /* font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff; */
+
+  font-family: var(--MetropolisMedium);
+  color: var(--white);
+  font-weight: 300;
+  font-size: 2vw;
+}
+
+.aboutUsIcon {
+  color: var(--white) !important;
+  align-items: flex-end;
+}
+
+.desTextIbar {
+  font-family: var(--MetropolisMedium);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  /* or 26px */
+
+  text-align: justify;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.borderDetails {
+  border-bottom: 1px solid #cccccc;
+  border-radius: unset;
+}
+
+.aboutus-bg-1 {
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/voiletRight.png"),
+    url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/greenleft.png");
+  background-position: 0% 0%, 100% 195%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.aboutus-bg-2 {
+  background-image: url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/voiletRight.png"),
+    url("https://d2s80gmgq3vhu4.cloudfront.net/HomeSlideImages/assets/Images/greenleft.png");
+  background-position: 0% 0%, 100% 173%;
+  background-repeat: no-repeat, no-repeat;
+}

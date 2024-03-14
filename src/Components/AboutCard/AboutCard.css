@@ -1,0 +1,29 @@
+@import url(../../App.css);
+
+.about-card-contianer {
+  max-width: 450px;
+}
+
+.ac-heading-number {
+  color: var(--theme-voilet);
+}
+
+.ac-small-heading {
+  font-size: var(--largeText);
+  color: var(--themeDarkBG);
+  font-family: var(--MetropolisMedium);
+}
+
+.ac-image-contianer {
+  width: 100%;
+  margin-top: 2em;
+  border-radius: 2%;
+}
+
+.ac-content {
+  max-width: 330px;
+}
+
+.ibartextdiv {
+  background: #221d35;
+}
